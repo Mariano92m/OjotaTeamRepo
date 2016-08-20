@@ -130,3 +130,18 @@ auth.settings.reset_password_requires_verification = True
 # after defining tables, uncomment below to enable auditing
 # -------------------------------------------------------------------------
 # auth.enable_record_versioning(db)
+db = DAL('sqlite://storage.sqlite')
+db.define_table('evento',
+    Field('nombre', label=T('Nombre del evento: ')),
+    Field('descripcion', label=T('Descripción: ')),
+    Field('categoria', label=T('Categoría: ')),
+    Field('fecha_hora', 'datetime', label=T('Fecha y Hora: ')),
+    Field('organizador', label=T('Organizado por: ')),
+    Field('costo', label=T('Costo:')))
+
+
+db.evento.nombre.requires = IS_NOT_EMPTY(error_message=T('Ingrese su nombre, por favor.'))
+db.evento.descripcion.requires = IS_NOT_EMPTY(error_message=T('Ingrese una descripción del evento, por favor.'))
+db.evento.categoria.requires = IS_NOT_EMPTY(error_message=T('Ingrese una categoria que corresponde al evento, por favor.'))
+db.evento.organizador.requires = IS_NOT_EMPTY(error_message=T('Ingrese el organizador del evento, por favor.'))
+db.evento.costo.requires = IS_NOT_EMPTY(error_message=T('Ingrese el costo del evento, por favor.'))

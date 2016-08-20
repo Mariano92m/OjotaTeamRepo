@@ -1,3 +1,34 @@
-{{extend 'layout.html'}}
-<h1>Está es la plantilla olyRegController/egameR.html</h1>
-{{=BEAUTIFY(response._vars)}}
+{{extend 'ojotaLayout.html'}}
+
+{{block head}}
+<link rel="stylesheet" href="{{=URL('static','css/olyMun.css')}}"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{{end}}
+
+<body>
+{{block body}}
+	<center>
+		
+	<!--=== LOGO ===-->
+	<br><br>
+	
+	<button class="buttoncito">Egames Regionales</button>
+
+	<br><br>
+	<div class="container">
+		<div class="row">
+      		<div class="col s12">
+
+      		</div>
+    	</div>
+      	<!--BOTON ADD EVENTO -->
+      	<br>
+      	<br>
+      	<br>     		
+
+	</div>
+
+	</center>
+
+{{end}}
+</body>

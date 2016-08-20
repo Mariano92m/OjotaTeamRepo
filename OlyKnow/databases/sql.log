@@ -53,3 +53,14 @@ CREATE TABLE auth_cas(
     renew CHAR(1)
 );
 success!
+timestamp: 2016-08-20T17:33:57.871000
+CREATE TABLE evento(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre CHAR(512),
+    descripcion CHAR(512),
+    categoria CHAR(512),
+    fecha_hora TIMESTAMP,
+    organizador CHAR(512),
+    costo CHAR(512)
+);
+success!
