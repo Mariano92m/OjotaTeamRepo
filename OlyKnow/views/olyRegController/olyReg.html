@@ -1,0 +1,81 @@
+{{extend 'ojotaLayout.html'}}
+
+{{block head}}
+<link rel="stylesheet" href="{{=URL('static','css/olyMun.css')}}"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{{end}}
+
+<body>
+{{block body}}
+	<center>
+		
+	<!--=== LOGO ===-->
+	<br><br>
+	
+	<button class="buttoncito">Regional</button>
+
+	<br><br>
+	<div class="container">
+		<div class="row">
+      		<div class="col s12">
+
+      				<!--=== Deportiva ===-->
+				    <div class="col s4">
+				        <div class="card small">
+				            <div class="card-image">
+				            	<img src="../static/images/descarga.jpg">
+								<center><span class="card-title">Deporte</span></center>
+				            </div>
+				            <div class="card-content">
+								<p>Informacion de todos los tipos de competencias deportivas.</p>
+				            </div>
+				            <div class="card-action">
+				        		<a href="#">Deportiva</a>
+				            </div>
+				    	</div>
+					</div>
+
+					<!--=== Academica ===-->
+					<div class="col s4">
+				        <div class="card small">
+				            <div class="card-image">
+				            	<img src="../static/images/academica.jpg">
+				              	<center><span class="card-title">Academica</span></center>
+				            </div>
+				            <div class="card-content">
+				            	<p>Informacion de todos los tipos de competencias academicas.</p>
+				            </div>
+				            <div class="card-action">
+				        		<a href="#">Academica</a>
+				            </div>
+				    	</div>
+					</div>
+
+					<!--=== EGames ===-->
+					<div class="col s4">
+				        <div class="card small">
+				            <div class="card-image">
+				            	<img src="../static/images/egame.jpg">
+								<center><span class="card-title">EGame</span></center>
+				            </div>
+				            <div class="card-content">
+				            	<p>Informacion de todos los tipos de competencias en videojuegos.</p>
+				            </div>
+				            <div class="card-action">
+				        		<a href="#">EGame</a>
+				            </div>
+				    	</div>
+					</div>
+      		</div>
+    	</div>
+      	<!--BOTON ADD EVENTO -->
+      	<br>
+      	<br>
+      	<br>     		
+
+	</div>
+
+	</center>
+
+{{end}}
+</body>

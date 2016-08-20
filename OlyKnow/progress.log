@@ -1,1 +1,17 @@
 [2016-08-20 13:06:36] START
+[2016-08-20 13:28:29] CREATE mainPageController.py: 0
+[2016-08-20 13:28:54] CREATE mainPageController/mainPage.html: 0
+[2016-08-20 13:43:46] CREATE css/manitoCss.css: 0
+[2016-08-20 13:51:07] CREATE ojotaLayout.html: 0
+[2016-08-20 15:36:16] CREATE onlymController.py: 0
+[2016-08-20 15:41:28] CREATE olyMunController/olyMun.html: 0
+[2016-08-20 15:41:37] DELETE OlyKnow/controllers/onlymController.py: -1
+[2016-08-20 15:41:51] CREATE olyMunController.py: 0
+[2016-08-20 16:48:10] CREATE olyRegController.py: 0
+[2016-08-20 16:49:12] CREATE olyRegController/olyReg.html: 0
+[2016-08-20 16:57:50] CREATE olyRegController/academicaR.html: 0
+[2016-08-20 16:59:38] CREATE olyRegController/deporteR.html: 0
+[2016-08-20 17:00:33] CREATE olyRegController/egameR.html: 0
+[2016-08-20 17:00:49] CREATE olyMunController/egameR.html: 0
+[2016-08-20 17:01:13] CREATE olyMunController/deporteM.html: 0
+[2016-08-20 17:01:38] CREATE olyMunController/academiaM.html: 0
